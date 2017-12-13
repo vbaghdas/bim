@@ -303,6 +303,12 @@
   .sidenav .container {
     width: 100%;
   }
+  .promo-section .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 640px) {
