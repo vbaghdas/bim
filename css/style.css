@@ -1212,6 +1212,13 @@ p {
 
 /* Promo Section
 -------------------------------------------------------*/
+.promo-section .video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
 .promo-section img {
   width: 100%;
 }
