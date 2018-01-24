@@ -3336,10 +3336,10 @@ p.footer-address {
 /* Modal */
 
 .modal.in .modal-dialog {
-  -webkit-transform: translate(0,35%);
-  -ms-transform: translate(0,35%);
-  -o-transform: translate(0,35%);
-  transform: translate(0,35%);
+  -webkit-transform: translate(0,32%);
+  -ms-transform: translate(0,32%);
+  -o-transform: translate(0,32%);
+  transform: translate(0,32%);
 }
 
 .modal-content {
