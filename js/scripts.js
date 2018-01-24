@@ -19,6 +19,8 @@
         initTextrotator();
         initOnepagenav();
         initPiechart();
+
+        $('#myModal').modal('show');
         
     });
 

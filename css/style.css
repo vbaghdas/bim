@@ -190,7 +190,7 @@ p {
 }
 
 .heading {
-  margin-bottom: 60px;
+  margin-bottom: 35px;
 }
 
 .bottom-line:after {
@@ -404,7 +404,8 @@ p {
 
 .menu-socials li > a {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 900;
   line-height: 57px;
   color: #fff;
   -webkit-transition: all 0.3s ease-in-out;
@@ -2058,7 +2059,7 @@ p {
 }
 
 .hero-message h1 {
-  color: #f88805;
+  color: #fff;
   font-size: 56px;
   font-weight: 700;
   line-height: 1;
@@ -3331,3 +3332,41 @@ p.footer-address {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Modal */
+
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0,35%);
+  -ms-transform: translate(0,35%);
+  -o-transform: translate(0,35%);
+  transform: translate(0,35%);
+}
+
+.modal-content {
+  border-radius: 0!important;
+  background-color: #000;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-header h2, 
+.modal-header h3,
+.modal-body h1, 
+.modal-body h5,
+.modal-body p {
+  color: #fff;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.close {
+  color: #fff;
+}
+
+.close:hover {
+  color: #f88805;
+}
