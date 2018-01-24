@@ -2866,7 +2866,7 @@ ol.numbers {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   color: #fff;
-  background-color: #111;
+  background-color: #222;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -2882,22 +2882,22 @@ ol.numbers {
 
 .btn.btn-stroke {
   color: #111;
-  border: 3px solid #111;
+  border: 3px solid #222;
   background-color: transparent;
 }
 
 .btn.btn-dark {
-  background-color: #333;
+  background-color: #222;
 }
 
 .btn.btn-white {
   background-color: #fff;
-  color: #111;
+  color: #222;
 }
 
 .btn.btn-light {
   background-color: #f5f5f5;
-  color: #111;
+  color: #222;
 }
 
 .btn:hover {
@@ -2917,7 +2917,7 @@ ol.numbers {
 }
 
 .btn.btn-white:focus {
-  color: #111;
+  color: #222;
 }
 
 .btn.btn-color:hover {
