@@ -219,6 +219,9 @@
   .grid-3-col.grid-gutter .work-item {
     width: 100%;
   }
+  .form-btn {
+    font-size: 2vw;
+  }
   .process-item {
     margin-bottom: 40px;
   }
