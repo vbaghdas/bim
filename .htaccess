@@ -1,2 +1,3 @@
-RewriteEngine On
-RewriteRule ^(.*)$ http://www.bimhealthcenter.com [R=301,L]
+RewriteEngine on 
+RewriteCond %{HTTP_HOST} ^18\.220\.147\.191
+RewriteRule (.*) http://www.bimhealthcenter.com/$1 [R=301,L]
