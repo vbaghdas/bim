@@ -3337,10 +3337,10 @@ p.footer-address {
 /* Modal */
 
 .modal.in .modal-dialog {
-  -webkit-transform: translate(0,30%);
-  -ms-transform: translate(0,30%);
-  -o-transform: translate(0,30%);
-  transform: translate(0,30%);
+  -webkit-transform: translate(0,20%);
+  -ms-transform: translate(0,20%);
+  -o-transform: translate(0,20%);
+  transform: translate(0,20%);
 }
 
 .modal-content {
@@ -3357,6 +3357,9 @@ p.footer-address {
 }
 
 .close {
+  position: absolute;
+  top: 0;
+  right: 2%;
   font-size: 50px;
   color: #000;
 }
