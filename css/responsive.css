@@ -363,6 +363,13 @@
   }
   .modal-content {
     padding: 0 15px;
-}
+  }
+  .modal-content h1 {
+    font-size: 4vw;
+  }
+  .modal-content h6 {
+    font-size: 3vw;
+  }
+
 
 /*# sourceMappingURL=responsive.css.map */
