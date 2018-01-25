@@ -1,6 +1,10 @@
 @media (max-width: 1200px) {
   .navbar-nav > li > a {
+    font-size: 12px;
     padding: 0 15px;
+  }
+  .menu-socials li > a {
+    font-size: 12px;
   }
   .works-grid-3-col-wide .container-fluid {
     padding: 0 15px;
