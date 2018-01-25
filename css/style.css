@@ -365,7 +365,7 @@ p {
 }
 
 .navigation-overlay.sticky {
-  background-color: #111111;
+  background-color: rgba(0,0,0,.9);
   visibility: visible;
   opacity: 1;
 }
@@ -424,7 +424,7 @@ p {
 }
 
 .logo-container {
-  padding: 0px 15px;
+  padding: 0px 30px;
   float: left;
 }
 
@@ -1213,7 +1213,7 @@ p {
 -------------------------------------------------------*/
 .forms {
   background-position-x: 50%;
-  padding: 60px 0;
+  padding: 60px;
 }
 
 /* Promo Section
@@ -3336,10 +3336,10 @@ p.footer-address {
 /* Modal */
 
 .modal.in .modal-dialog {
-  -webkit-transform: translate(0,32%);
-  -ms-transform: translate(0,32%);
-  -o-transform: translate(0,32%);
-  transform: translate(0,32%);
+  -webkit-transform: translate(0,30%);
+  -ms-transform: translate(0,30%);
+  -o-transform: translate(0,30%);
+  transform: translate(0,30%);
 }
 
 .modal-content {
