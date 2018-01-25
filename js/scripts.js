@@ -21,6 +21,10 @@
         initPiechart();
 
         $('#myModal').modal('show');
+
+        setTimeout(function() {
+            $('.owl-next').click();
+        }, 1000);
         
     });
 
