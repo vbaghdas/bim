@@ -3388,5 +3388,7 @@ p.footer-address {
 #voucher-form input[type="email"]
 #contact-form input[type="text"],
 #contact-form input[type="email"] {
-  -webkit-appearance: textarea;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
