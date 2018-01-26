@@ -10,7 +10,7 @@ $mail = new PHPMailer;
 $mail->Host = 'smtp.gmail.com';
 
 // Set mailer to use SMTP.
-$mail->isSMTP();
+// $mail->isSMTP();
 
 // Enable SMTP authentication
 $mail->SMTPAuth = true;         
