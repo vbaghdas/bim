@@ -1,6 +1,6 @@
 <?php
 
-require_once('.:/usr/share/php/email_config.php');
+require_once('email_config.php');
 require('phpmailer/PHPMailer/PHPMailerAutoload.php');
 
 // Create an instance of php mailer

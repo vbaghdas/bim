@@ -354,7 +354,8 @@ p {
 }
 
 .navigation-overlay {
-  background-color: rgba(69, 96, 129, .9);
+  background: linear-gradient(45deg, #0B4182 1%, #1e88e5 64%, #40BAF5 97%);
+  opacity: .9;
   width: 100%;
   line-height: 0;
   -webkit-transition: all 0.3s ease-in-out;
@@ -3283,7 +3284,7 @@ p.footer-address {
 }
 
 .bottom-footer {
-  background-color: rgb(69, 96, 129);
+  background: linear-gradient(45deg, #0B4182 1%, #1e88e5 64%, #40BAF5 97%);
   padding: 34px 0;
 }
 
