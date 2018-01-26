@@ -57,8 +57,9 @@
                 success: function (data) {
                     $('#contact-form').closest('form').find('input[type=text], textarea').val('');
                     $('#contact-form').closest('form').find('input[type=email], textarea').val('');
+                    $('.modal-content').css({'padding':'0px 60px'});
                     $('.modal-title').text('Thank You!');
-                    $('.modal-body > p').text('Your message has been sent successfully. We will get back to you shortly.');
+                    $('.modal-body > p').text('Your message has been sent successfully. We will get back to you shortly..');
                     $("#contact-modal").modal('show');
                 },
                 error: function(response){

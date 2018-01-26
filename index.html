@@ -341,7 +341,7 @@
           </div>
 
           <div class="col-md-8 wow zoomIn">
-            <form id="contact-form" action="#">
+            <form id="contact-form">
 
               <div class="row contact-row">
                 <div class="col-md-6 contact-name">
@@ -460,20 +460,22 @@
     </div>
 
   <!-- Specials Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
+  <div class="modal fade" id="voucher-modal" role="dialog">
     <div class="modal-dialog">
     
       <!-- Modal content-->
       <div class="modal-content">
+
         <div class="modal-header text-center">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <img class="mb-10" src="img/logo_light.png" style="width: 45%;">
           <h1 class="modal-title" style="color: #fff;">LIMITED TIME OFFER!</h1>
         </div>
+
         <div class="modal-body text-center">
-          <h2 class="mb-10" style="color: #fff;">Exam, Consultation & Chiropractic Adjustment</h2>
-          <h1 class="mb-20" style="color: #fff; font-size: 52px;">$29</h1>
-          <h6 style="color: #fff;"></h6>
+          <h2 class="mb-10">Exam, Consultation & Chiropractic Adjustment</h2>
+          <h1 class="mb-20" style="font-size: 52px;">$29</h1>
+          <p></p>
 
           <form id="voucher-form">
             <div class="row contact-row">
@@ -483,9 +485,14 @@
               <div class="col-md-12 contact-email">
                 <input name="email" id="email-voucher" type="email" placeholder="E-mail*">
               </div>
+              <div class="col-md-12 contact-email" style="display: none;">
+                  <input name="subject" type="text" value="Subject"> 
+                  <textarea name="message">You have received a request for a voucher by a patient.</textarea>
+              </div>
               <button type="submit" class="btn btn-color btn-lg btn-submit-voucher" style="width: 96%">GIVE ME MY VOUCHER</button>
             </div>
           </form>
+
         </div>
 
         <div class="modal-footer">
@@ -496,26 +503,29 @@
     </div>
   </div>
 
+  <!-- End Specials Modal -->
+
   <!-- Confirmation Modal -->
   <div id="contact-modal" class="modal fade" role="dialog">
       <div class="modal-dialog">
   
       <!-- Modal content-->
       <div class="modal-content">
-          <div class="modal-header">
+          <div class="modal-header text-center">
+              <img class="mb-20" src="img/logo_light.png" style="width: 45%;">
               <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h3 class="modal-title"></h3>
+              <h2 class="modal-title"></h2>
           </div>
           <div class="modal-body">
               <p></p>
           </div>
           <div class="modal-footer">
-              <button type="button" class="btn btn-color" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-color close-modal-btn" data-dismiss="modal">Close</button>
           </div>
       </div>
   </div>
 
-  <!-- End Modal -->
+  <!-- End Confirmation Modal -->
 
   </div> <!-- end main-wrapper -->
   

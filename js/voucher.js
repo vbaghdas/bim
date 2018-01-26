@@ -10,6 +10,8 @@ $(document).ready(function(){
         //get input field values
         var user_name = $('#name-voucher').val();
         var user_email = $('#email-voucher').val();
+        var user_subject = $('#subject-voucher').val();
+        var user_message = $('#message-voucher').val();
         var url = "./php_mailer/mail_handler.php"; // the script where you handle the form input.
 
         //simple validation at client's end
@@ -37,6 +39,8 @@ $(document).ready(function(){
             post_data = {
                 'userName': user_name,
                 'userEmail': user_email,
+                'userMessage': user_message,
+                'userSubject': user_subject
             };
             //Ajax post data to server
             $.ajax({
@@ -44,13 +48,12 @@ $(document).ready(function(){
                 url: url,
                 data: $("#voucher-form").serialize(), // serializes the form's elements.
                 success: function (data) {
-                    $('#voucher-form').closest('form').find('#name-voucher').val('');
-                    $('#voucher-form').closest('form').find('#email-voucher').val('');
                     $('#voucher-form').hide();
-                    $('.modal-title').hide();
+                    $('.modal-content').css({'padding':'60px 60px'});
+                    $('.modal-title').text('');
                     $('.modal-body > h2').text('Thank You For Opting in For Your Voucher!');
-                    $('.modal-body h1').hide();
-                    $('.modal-body > h6').text('Due to the limited number of vouchers available, they will be redeemable on a first-call basis so call to book your appointment today!');
+                    $('.modal-body > h1').text('');
+                    $('.modal-body > p').text('Due to the limited number of vouchers available, they will be redeemable on a first-call basis so call to book your appointment today!');
                 },
                 error: function(response){
 

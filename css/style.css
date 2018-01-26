@@ -3353,6 +3353,13 @@ p.footer-address {
   border-bottom: none;
 }
 
+.modal-body h1,
+.modal-body h2,
+.modal-body p,
+.modal-header h2 {
+  color: #fff!important;
+}
+
 .modal-footer {
   border-top: none;
 }
@@ -3367,6 +3374,12 @@ p.footer-address {
 
 .close:hover {
   color: #f88805;
+}
+
+.close-modal-btn {
+  position: absolute;
+  bottom: 4%;
+  right: 2%;
 }
 
 #voucher-form input[type="text"],

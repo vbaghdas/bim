@@ -39,7 +39,7 @@ $mail->From = $visitor_email;
 $mail->FromName = $name;
 
 // Add a recipient
-$mail->addAddress('bimchirola@gmail.com', 'First Recipient');
+$mail->addAddress('outlawstatus2@gmail.com', 'First Recipient');
 
 // Add a reply-to address
 $mail->addReplyTo($visitor_email);                          

@@ -20,7 +20,7 @@
         initOnepagenav();
         initPiechart();
 
-        $('#myModal').modal('show');
+        $('#voucher-modal').modal('show');
 
         setTimeout(function() {
             $('.owl-next').click();
