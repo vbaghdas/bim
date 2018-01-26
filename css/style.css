@@ -3368,3 +3368,8 @@ p.footer-address {
 .close:hover {
   color: #f88805;
 }
+
+#voucher-form input[type="text"],
+#contact-form input[type="text"] {
+  -webkit-appearance: none;
+}
