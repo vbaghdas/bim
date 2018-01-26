@@ -48,8 +48,7 @@ $(document).ready(function(){
                     $('#voucher-form').closest('form').find('#email-voucher').val('');
                     $('#voucher-form').hide();
                     $('.modal-title').hide();
-                    $('.modal-body h1').hide();
-                    $('.modal-body > h2').text('Thank You For Opting in For Your Voucher!');
+                    $('.modal-body > h1').text('Thank You For Opting in For Your Voucher!');
                     $('.modal-body > h6').text('Due to the limited number of vouchers available, they will be redeemable on a first-call basis so call to book your appointment today!');
                 },
                 error: function(response){
