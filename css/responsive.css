@@ -364,7 +364,8 @@
   .modal-content {
     padding: 0 15px;
   }
-  .modal-content h1 {
+  .modal-content h1,
+  .modal-content h2 {
     font-size: 4.5vw;
   }
   .modal-content h6 {
