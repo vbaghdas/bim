@@ -147,7 +147,7 @@ body img {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   margin-top: 0;
-  color: rgba(69, 96, 129, 1);
+  color: #1957A1;
   letter-spacing: 0.05em;
   font-weight: 700;
 }
@@ -366,7 +366,7 @@ p {
 }
 
 .navigation-overlay.sticky {
-  background-color: rgba(69, 96, 129, 1);
+  background-color: linear-gradient(45deg, #0B4182 1%, #1e88e5 64%, #40BAF5 97%);
   visibility: visible;
   opacity: 1;
 }
@@ -492,7 +492,7 @@ p {
 @media (max-width: 991px) {
   .navigation-overlay,
   .navigation-overlay.sticky {
-    background-color: rgba(69, 96, 129, .9);
+    background: linear-gradient(45deg, #0B4182 1%, #1e88e5 64%, #40BAF5 97%);
   }
   .nav-wrap {
     width: 100%;
