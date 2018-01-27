@@ -65,11 +65,11 @@ $(document).ready(function(){
     });
 
     //reset previously set border colors and hide all message on .keyup()
-    $("#voucher-form #name").keyup(function(){
+    $("#voucher-form #name-voucher").keyup(function(){
         $("#voucher-form #name-voucher").css('border-color', '');
     });
 
-    $("#voucher-form #email").keyup(function(){
+    $("#voucher-form #email-voucher").keyup(function(){
         $("#voucher-form #email-voucher").css('border-color', '');
     });
 
