@@ -1,7 +1,7 @@
 <?php
 
-require_once('email_config.php');
-require('phpmailer/PHPMailer/PHPMailerAutoload.php');
+require_once(ROOT_PATH . 'email_config.php');
+require(ROOT_PATH . 'phpmailer/PHPMailer/PHPMailerAutoload.php');
 
 // Create an instance of php mailer
 $mail = new PHPMailer;
