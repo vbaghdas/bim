@@ -31,6 +31,14 @@ $mail->SMTPSecure = 'tls';
 // TCP port to connect to
 $mail->Port = 587;
 
+// Debug
+
+$mail->Debugoutput = function($str, $level) {
+    $GLOBALS['debug'][] = $Host . " - " . $str . " - " . $level;
+};
+
+$mail->SMTPDebug = 3;
+
 $mail->smtpConnect($options);
 // Sender's email address (shows in "From" field)
 $mail->From = $visitor_email;
