@@ -1,3 +1,5 @@
 RewriteEngine on 
-RewriteCond %{HTTP_HOST} ^54\.183\.96\.244\.bim
+RewriteCond %{HTTP_HOST} ^18\.220\.147\.191
 RewriteRule (.*) http://www.bimhealthcenter.com/$1 [R=301,L]
+
+18.220.147.191
