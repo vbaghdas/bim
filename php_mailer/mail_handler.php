@@ -26,10 +26,10 @@ $mail->Username = EMAIL_USER;
 $mail->Password = EMAIL_PASS;
 
 // Enable TLS encryption, `ssl` also accepted, but TLS is a newer more-secure encryption
-$mail->SMTPSecure = 'tls';    
+$mail->SMTPSecure = 'ssl';    
 
 // TCP port to connect to
-$mail->Port = 587;
+$mail->Port = 465;
 
 $mail->smtpConnect($options);
 // Sender's email address (shows in "From" field)
@@ -39,7 +39,7 @@ $mail->From = $visitor_email;
 $mail->FromName = $name;
 
 // Add a recipient
-$mail->addAddress('outlawstatus2@gmail.com', 'First Recipient');
+$mail->addAddress('bimchirola@gmail.com', 'First Recipient');
 
 // Add a reply-to address
 $mail->addReplyTo($visitor_email);                          
