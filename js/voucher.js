@@ -50,7 +50,7 @@ $(document).ready(function(){
                 success: function (data) {
                     $('#voucher-form').hide();
                     $('.modal-body > .vouchers').css({
-                        'border-bottom': 'solid #555 1px',
+                        'border-bottom': 'dashed #555 2px',
                         'padding-bottom': '10px'
                     });
                     $('.modal-title').text('');
