@@ -3365,11 +3365,6 @@ p.footer-address {
   color: #fff!important;
 }
 
-.modal-body > .vouchers {
-  border-bottom: solid #555 1px;
-  padding-bottom: 10px;
-}
-
 .modal-footer {
   border-top: none;
 }
