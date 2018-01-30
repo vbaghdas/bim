@@ -7,7 +7,7 @@ require('phpmailer/PHPMailer/PHPMailerAutoload.php');
 $mail = new PHPMailer;
 
 // Set a host
-$mail->Host = 'tls://smtp.gmail.com:587';
+$mail->Host = 'smtp.gmail.com';
 
 // Set mailer to use SMTP.
 $mail->isSMTP();

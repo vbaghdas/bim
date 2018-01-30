@@ -355,11 +355,11 @@
   .works-grid .work-item {
     width: 100%;
   }
-  .modal.in .modal-dialog {
-    -webkit-transform: translate(0,10%);
-    -ms-transform: translate(0,10%);
-    -o-transform: translate(0,10%);
-    transform: translate(0,10%);
+  .modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
   }
   .modal-content {
     padding: 0 15px;

@@ -3334,11 +3334,18 @@ p.footer-address {
 
 /* Modal */
 
-.modal.in .modal-dialog {
+/* .modal.in .modal-dialog {
   -webkit-transform: translate(0,25%);
   -ms-transform: translate(0,25%);
   -o-transform: translate(0,25%);
   transform: translate(0,25%);
+} */
+
+.modal-dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
 }
 
 .modal-content {
