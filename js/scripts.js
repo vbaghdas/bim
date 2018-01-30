@@ -21,10 +21,6 @@
         initPiechart();
 
         $('#voucher-modal').modal('show');
-
-        setTimeout(function() {
-            $('.owl-next').click();
-        }, 1000);
         
     });
 
@@ -455,6 +451,7 @@
                 navigation: true,
                 slideSpeed: 300,
                 singleItem: true,
+                autoPlay: 4000,
                 navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
          
             });
