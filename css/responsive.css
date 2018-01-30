@@ -360,6 +360,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) !important;
+    width: 95%;
+    margin: 0;
   }
   .modal-content {
     padding: 0 15px;
