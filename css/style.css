@@ -3349,7 +3349,7 @@ p.footer-address {
 }
 
 .modal-content {
-  padding: 0 60px;
+  padding: 0 40px;
   border-radius: 15px;
   background-color: rgba(15,15,15,.85);
 }
@@ -3363,6 +3363,11 @@ p.footer-address {
 .modal-body p,
 .modal-header h2 {
   color: #fff!important;
+}
+
+.modal-body > .vouchers {
+  border-bottom: solid #555 1px;
+  padding-bottom: 10px;
 }
 
 .modal-footer {
