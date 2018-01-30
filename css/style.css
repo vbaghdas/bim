@@ -3369,6 +3369,10 @@ p.footer-address {
   border-top: none;
 }
 
+.modal-footer p {
+  color: #fff;
+}
+
 .close {
   position: absolute;
   top: 0;
