@@ -54,7 +54,7 @@ $(document).ready(function(){
                     $('.modal-body > h2').text('Thank You For Opting in For Your Voucher!');
                     $('.modal-body > h1').text('');
                     $('.modal-body > .vouchers').text('Due to the limited number of vouchers available, they will be redeemable on a first-call basis so call to book your appointment today!');
-                    $('.modal-body > .bonus').text('Call to schedule now and get 4 adjustments for only $79!');
+                    $('.modal-body > .bonus').text('BONUS! Call to schedule now and get 4 adjustments for only $79!');
                     $('.modal-body > .call-now').text('Call NOW: (818) 782-2225');
                     $('.modal-footer > p').text('Voucher Code to redeem offer is BIMChiro.');
                 },
