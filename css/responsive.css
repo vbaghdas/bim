@@ -363,6 +363,9 @@
     width: 95%;
     margin: 0;
   }
+  .modal-content img {
+    visibility: hidden;
+  }
   .modal-content {
     padding: 0 15px;
   }
