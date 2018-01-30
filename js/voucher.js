@@ -49,7 +49,7 @@ $(document).ready(function(){
                 data: $("#voucher-form").serialize(), // serializes the form's elements.
                 success: function (data) {
                     $('#voucher-form').hide();
-                    $('.modal-content').css({
+                    $('.modal-body > .vouchers').css({
                         'border-bottom': 'solid #555 1px',
                         'padding-bottom': '10px'
                     });
