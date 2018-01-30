@@ -316,6 +316,9 @@
     height: 0;
     overflow: hidden;
   }
+  .modal-dialog {
+    width: 75%;
+  }
 }
 
 @media (max-width: 640px) {
