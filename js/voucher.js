@@ -49,7 +49,10 @@ $(document).ready(function(){
                 data: $("#voucher-form").serialize(), // serializes the form's elements.
                 success: function (data) {
                     $('#voucher-form').hide();
-                    // $('.modal-content').css({'padding':'60px 60px'});
+                    $('.modal-content').css({
+                        'border-bottom': 'solid #555 1px',
+                        'padding-bottom': '10px'
+                    });
                     $('.modal-title').text('');
                     $('.modal-body > h2').text('Thank You For Opting in For Your Voucher!');
                     $('.modal-body > h1').text('');
