@@ -438,7 +438,7 @@
                 pagination: true,
                 paginationSpeed: 400,
                 singleItem: true,
-                autoPlay: 4000,
+                autoPlay: 5000,
                 stopOnHover: true
          
             });
@@ -451,7 +451,7 @@
                 navigation: true,
                 slideSpeed: 300,
                 singleItem: true,
-                autoPlay: 4000,
+                autoPlay: 5000,
                 navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
          
             });
