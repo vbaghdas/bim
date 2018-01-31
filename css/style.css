@@ -3345,7 +3345,6 @@ p.footer-address {
 }
 
 .modal-content {
-  padding: 0 40px;
   border-radius: 15px;
   opacity: .9;
   background: linear-gradient(45deg, #0B4182 1%, #1e88e5 64%, #40BAF5 97%);
@@ -3407,4 +3406,9 @@ p.footer-address {
 .modal .contact-name,
 .modal .contact-email {
   margin-bottom: 15px;
+}
+
+.modal .contact-row {
+  width: 80%;
+  margin: auto;
 }
