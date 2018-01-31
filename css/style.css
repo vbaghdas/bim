@@ -3346,8 +3346,7 @@ p.footer-address {
 
 .modal-content {
   border-radius: 15px;
-  opacity: .9;
-  background: linear-gradient(45deg, #0B4182 1%, #1e88e5 64%, #40BAF5 97%);
+  background: rgba(15,15,15,.9);
 }
 
 .modal-header {
