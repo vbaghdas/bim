@@ -2873,6 +2873,12 @@ ol.numbers {
   border: 3px solid #fff;
 }
 
+.btn.btn-transparent:hover {
+  background-color: #444;
+  border-color: #444;
+  color: #f88805;
+}
+
 .btn.btn-stroke {
   color: #222;
   border: 3px solid #222;
