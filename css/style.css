@@ -1712,15 +1712,10 @@ p {
 
 /* Contact
 -------------------------------------------------------*/
-.contact-row {
+/* .contact-row {
   margin-left: -8px;
   margin-right: -8px;
-}
-
-.contact-name,
-.contact-email {
-  padding: 0 8px;
-}
+} */
 
 .contact-item {
   position: relative;
@@ -2955,7 +2950,8 @@ textarea {
   height: 47px;
   line-height: 47px;
   border: 2px solid #e3e3e3;
-  background-color: #e3e3e3;
+  border-radius: 0;
+  background-color: #fff;
   width: 100%;
   margin-bottom: 16px;
   padding: 0 16px;
@@ -3351,7 +3347,8 @@ p.footer-address {
 .modal-content {
   padding: 0 40px;
   border-radius: 15px;
-  background-color: rgba(15,15,15,.85);
+  opacity: .9;
+  background: linear-gradient(45deg, #0B4182 1%, #1e88e5 64%, #40BAF5 97%);
 }
 
 .modal-header {
@@ -3378,11 +3375,14 @@ p.footer-address {
   top: 0;
   right: 2%;
   font-size: 50px;
-  color: #fff;
+  color: #555;
+  opacity: 1;
+  text-shadow: none;
 }
 
 .close:hover {
-  color: #f88805;
+  color: #333;
+  opacity: 1;
 }
 
 .close-modal-btn {
@@ -3391,10 +3391,20 @@ p.footer-address {
   right: 2%;
 }
 
+.input-group .fa {
+  font-size: 20px;
+}
+
 #voucher-form input[type="text"],
 #contact-form input[type="text"],
 #contact-form textarea[type="text"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  font-size: 16px;
+}
+
+.modal .contact-name,
+.modal .contact-email {
+  margin-bottom: 15px;
 }

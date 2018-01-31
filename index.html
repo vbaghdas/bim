@@ -494,17 +494,19 @@
 
           <form id="voucher-form" method="post">
             <div class="row contact-row">
-              <div class="col-md-12 contact-name">
-                <input name="name" id="name-voucher" type="text" placeholder="Name*">
+              <div class="col-md-12 contact-name input-group">
+                <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+                <input class="form-control" name="name" id="name-voucher" type="text" placeholder="Name">
               </div>
-              <div class="col-md-12 contact-email">
-                <input name="email" id="email-voucher" type="text" placeholder="E-mail*">
+              <div class="col-md-12 contact-email input-group">
+                <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+                <input class="form-control" name="email" id="email-voucher" type="text" placeholder="E-mail">
               </div>
               <div class="col-md-12 contact-email" style="display: none;">
                   <input name="subject" type="text" value="Subject"> 
                   <textarea name="message" type="text">You have received a request for a voucher by a patient.</textarea>
               </div>
-              <button type="submit" class="btn btn-color btn-lg btn-submit-voucher" style="width: 96%">GIVE ME MY VOUCHER</button>
+              <button type="submit" class="btn btn-color btn-lg btn-submit-voucher" style="width: 100%">GIVE ME MY VOUCHER</button>
             </div>
           </form>
 
