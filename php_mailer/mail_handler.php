@@ -17,21 +17,15 @@ $mail->Password = EMAIL_PASS;
 $mail->SMTPSecure = 'tls';    
 $mail->Port = 587;
 $mail->smtpConnect($options);
+$mail->isHTML(true);
 
-// Sender's email address (shows in "From" field)
-$mail->From = $visitor_email;
 
-// Sender's name (shows in "From" field)
-$mail->FromName = $name;
+$mail->From = $visitor_email; // Sender's email address (shows in "From" field)
+$mail->FromName = $name; // Sender's name (shows in "From" field)
 
 // Add a recipient
 $mail->addAddress('outlawstatus2@gmail.com', 'First Recipient');
-
-// Add a reply-to address
 $mail->addReplyTo($visitor_email);                          
-
-// Set email format to HTML
-$mail->isHTML(true);
 $mail->Subject = $subject;
 $mail->Body    = $message;
 
