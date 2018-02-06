@@ -35,17 +35,17 @@ if(!$mail->send()) {
     echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
     echo 'Message has been sent';
-    $autoemail = new PHPMailer(true);
-    $autoemail->IsSMTP();               // set mailer to use SMTP
-    $autoemail->Host = "smtp.gmail.com";  // specify main and backup server or localhost
-    $autoemail->SMTPAuth = true;     // turn on SMTP authentication
-    $autoemail->Username = EMAIL_USER;  // SMTP username
-    $autoemail->Password = EMAIL_PASS; // SMTP password
-    $autoemail->From = "bimchirola@gmail.com";
-    $autoemail->FromName = "Back In Motion | Health Center";
-    $autoemail->AddAddress(visitor_email, $name);
-    $autoemail->Subject = "Autoresponse: We received your submission";
-    $autoemail->Body = "We received your submission. We will contact you soon ...";
+    $mail = new PHPMailer(true);
+    $mail->IsSMTP();               // set mailer to use SMTP
+    $mail->Host = "smtp.gmail.com";  // specify main and backup server or localhost
+    $mail->SMTPAuth = true;     // turn on SMTP authentication
+    $mail->Username = EMAIL_USER;  // SMTP username
+    $mail->Password = EMAIL_PASS; // SMTP password
+    $mail->From = "bimchirola@gmail.com";
+    $mail->FromName = "Back In Motion | Health Center";
+    $mail->AddAddress(visitor_email, $name);
+    $mail->Subject = "Autoresponse: We received your submission";
+    $mail->Body = "We received your submission. We will contact you soon ...";
 }
 
 ?>
