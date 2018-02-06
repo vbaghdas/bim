@@ -35,21 +35,22 @@ if(!$mail->send()) {
     echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
     echo 'Message has been sent';
-    $mail = new PHPMailer(true);
-    $mail->IsSMTP();               // set mailer to use SMTP
-    $mail->Host = "smtp.gmail.com";  // specify main and backup server or localhost
-    $mail->SMTPAuth = true;     // turn on SMTP authentication
-    $mail->Username = EMAIL_USER;  // SMTP username
-    $mail->Password = EMAIL_PASS; // SMTP password
-    $mail->SMTPSecure = 'tls';    
-    $mail->Port = 587;
-    $mail->smtpConnect($options);
-    $mail->isHTML(true);
-    $mail->From = "bimchirola@gmail.com";
-    $mail->FromName = "Back In Motion | Health Center";
-    $mail->AddAddress(visitor_email, $name);
-    $mail->Subject = "Autoresponse: We received your submission";
-    $mail->Body = "We received your submission. We will contact you soon ...";
+    $automail = new PHPMailer(true);
+    $automail->IsSMTP();               // set mailer to use SMTP
+    $automail->Host = "smtp.gmail.com";  // specify main and backup server or localhost
+    $automail->SMTPAuth = true;     // turn on SMTP authentication
+    $automail->Username = EMAIL_USER;  // SMTP username
+    $automail->Password = EMAIL_PASS; // SMTP password
+    $automail->SMTPSecure = 'tls';    
+    $automail->Port = 587;
+    $automail->smtpConnect($options);
+    $automail->isHTML(true);
+    $automail->From = "bimchirola@gmail.com";
+    $automail->FromName = "Back In Motion | Health Center";
+    $automail->AddAddress(visitor_email, $name);
+    $automail->Subject = "Autoresponse: We received your submission";
+    $automail->Body = "We received your submission. We will contact you soon ...";
+    $autoemail->send();
 }
 
 ?>
