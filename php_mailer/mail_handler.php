@@ -41,6 +41,10 @@ if(!$mail->send()) {
     $mail->SMTPAuth = true;     // turn on SMTP authentication
     $mail->Username = EMAIL_USER;  // SMTP username
     $mail->Password = EMAIL_PASS; // SMTP password
+    $mail->SMTPSecure = 'tls';    
+    $mail->Port = 587;
+    $mail->smtpConnect($options);
+    $mail->isHTML(true);
     $mail->From = "bimchirola@gmail.com";
     $mail->FromName = "Back In Motion | Health Center";
     $mail->AddAddress(visitor_email, $name);
