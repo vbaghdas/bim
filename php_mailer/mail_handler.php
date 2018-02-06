@@ -40,7 +40,6 @@ $mail->FromName = $name;
 
 // Add a recipient
 $mail->addAddress('bimchirola@gmail.com', 'First Recipient');
-$mail->addAddress($visitor_email, 'Second Recipient');
 
 // Add a reply-to address
 $mail->addReplyTo($visitor_email);                          
