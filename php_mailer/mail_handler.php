@@ -38,10 +38,10 @@ if(!$mail->send()) {
     $autoemail = new PHPMailer(true);
     $autoemail->IsSMTP();               // set mailer to use SMTP
     $autoemail->Host = "smtp.gmail.com";  // specify main and backup server or localhost
-    $autoemail->SMTPAuth = false;     // turn on SMTP authentication
+    $autoemail->SMTPAuth = true;     // turn on SMTP authentication
     $autoemail->Username = EMAIL_USER;  // SMTP username
     $autoemail->Password = EMAIL_PASS; // SMTP password
-    $autoemail->From = $to_email;
+    $autoemail->From = "bimchirola@gmail.com";
     $autoemail->FromName = "Back In Motion | Health Center";
     $autoemail->AddAddress(visitor_email, $name);
     $autoemail->Subject = "Autoresponse: We received your submission";
