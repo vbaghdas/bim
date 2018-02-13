@@ -12,7 +12,7 @@ $(document).ready(function(){
         var user_email = $('#email-voucher').val();
         var user_subject = $('#subject-voucher').val();
         var user_message = $('#message-voucher').val();
-        var url = "./php_mailer/mail_handler.php"; // the script where you handle the form input.
+        var url = "./php_mailer/mail_handler_voucher.php"; // the script where you handle the form input.
 
         //simple validation at client's end
         //we simply change border color to red if empty field using .css()
@@ -51,7 +51,8 @@ $(document).ready(function(){
                     $('#voucher-form').hide();
                     $('.modal-body > .vouchers').css({
                         'border-bottom': 'dashed #555 2px',
-                        'padding-bottom': '10px'
+                        'padding-bottom': '30px',
+                        'margin-bottom': '30px'
                     });
                     $('.modal-title').text('');
                     $('.modal-body > h2').text('Thank You For Opting in For Your Voucher!');
