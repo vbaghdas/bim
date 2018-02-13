@@ -44,7 +44,7 @@ $message .= "<tbody>
                 
                 <tr>
                 <td colspan='4' style='padding:15px 30px; color: #333;'>
-                <p style='font-size: 14px; color: #333;'><strong>Dear ".$name.",</strong></p>
+                <p style='font-size: 14px; color: #333; padding-bottom: 15px;'><strong>Dear ".$name.",</strong></p>
                 <p style='font-size: 14px; color: #333;'>Thank you for opting in for your voucher.</p>
                 <p style='font-size: 14px; color: #333;'>Due to the limited number of vouchers available, they will be redeemable on a first-call basis so call to book your appointment today!</p>
                 <hr/>
