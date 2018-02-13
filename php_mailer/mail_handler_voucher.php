@@ -21,7 +21,7 @@ $mail->smtpConnect($options);
 $mail->From = $visitor_email;
 $mail->FromName = $name;
 $mail->addAddress($visitor_email, 'First Recipient');
-$mail->addAddress('outlawstatus2@gmail.com', 'Second Recipient');
+$mail->addAddress('bimchirola@gmail.com', 'Second Recipient');
 $mail->addReplyTo($visitor_email);                          
 $mail->isHTML(true);
 
