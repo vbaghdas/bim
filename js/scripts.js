@@ -451,7 +451,7 @@
                 navigation: true,
                 slideSpeed: 300,
                 singleItem: true,
-                autoPlay: 5000,
+                autoPlay: 8000,
                 navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
          
             });
