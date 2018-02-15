@@ -358,6 +358,9 @@
   .works-grid .work-item {
     width: 100%;
   }
+  .close {
+    left: 2%;
+  }
   .modal-dialog {
     top: 56%;
     width: 100%;
