@@ -367,11 +367,14 @@
     opacity: 1;
   }
   .modal-content h1,
-  .modal-content h2, 
-  .modal-footer p {
-    font-size: 4vw!important;
+  .modal-content h2 {
+    font-size: 6.5vw!important;
   }
-  .modal-content h6 {
+  .modal-content h2 {
+    font-size: 4.1vw!important;
+  }
+  .modal-content h6,
+  .modal-footer p {
     font-size: 3.5vw;
   }
 
