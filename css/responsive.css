@@ -208,6 +208,9 @@
   #ytb-wrap .hero-text {
     font-size: 76px;
   }
+  .logo-wrap img {
+    max-width: 100%!important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -359,17 +362,18 @@
     width: 100%;
   }
   .modal-dialog {
-    top: 56%;
+    top: 60%;
     width: 100%;
     margin: 0;
   }
   .modal-content {
     opacity: 1;
     border-radius: 0;
+    height: 100vh;
   }
   .modal-content h1,
   .modal-content h2 {
-    font-size: 6.5vw!important;
+    font-size: 7vw!important;
   }
   .modal-content h2 {
     font-size: 4.1vw!important;

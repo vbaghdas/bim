@@ -443,7 +443,7 @@ p {
 .logo-wrap > a {
   display: table-cell;
   vertical-align: middle;
-  height: 90px;
+  height: 108px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -3376,6 +3376,10 @@ p.footer-address {
   border-bottom: none;
 }
 
+.modal-header h1 {
+  font-size: 42px;
+}
+
 .modal-title {
   margin: 5px 0px -10px 0;
 }
@@ -3398,8 +3402,8 @@ p.footer-address {
 
 .close {
   position: absolute;
-  top: 0;
-  right: 2%;
+  top: 1.1%;
+  right: 2.1%;
   font-size: 50px;
   color: #555;
   opacity: 1;
@@ -3427,7 +3431,7 @@ p.footer-address {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  font-size: 18px;
+  font-size: 16px;
   color: #111;
 }
 
