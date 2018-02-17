@@ -361,11 +361,6 @@
   .works-grid .work-item {
     width: 100%;
   }
-  .modal-dialog {
-    top: 68%;
-    width: 100%;
-    margin: 0;
-  }
   .modal-content {
     opacity: 1;
     border-radius: 0;
@@ -382,6 +377,32 @@
   .modal-footer p {
     font-size: 3.5vw;
   }
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .modal-dialog {
+      top: 68%;
+      width: 100%;
+      margin: 0;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .modal-dialog {
+      top: 68%;
+      width: 100%;
+      margin: 0;
+    }
+}
 
 
 /*# sourceMappingURL=responsive.css.map */

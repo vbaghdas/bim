@@ -3368,7 +3368,6 @@ p.footer-address {
 }
 
 .modal-content {
-  border-radius: 15px;
   background: rgba(15,15,15,.9);
 }
 
@@ -3377,7 +3376,7 @@ p.footer-address {
 }
 
 .modal-header h1 {
-  font-size: 42px;
+  font-size: 44px;
 }
 
 .modal-title {
