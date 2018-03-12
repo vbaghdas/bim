@@ -3445,3 +3445,12 @@ p.footer-address {
   width: 80%;
   margin: auto;
 }
+
+.iubenda-black {
+  background: none;
+}
+
+.iubenda-ibadge {
+  width: 100px;
+  height: 15px;
+}
