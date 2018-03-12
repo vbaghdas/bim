@@ -382,6 +382,9 @@
   .modal-footer p {
     font-size: 3.5vw;
   }
+  .close {
+    right: 2.5%;
+  }
 
 
 /*# sourceMappingURL=responsive.css.map */
