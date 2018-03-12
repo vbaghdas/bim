@@ -3447,10 +3447,10 @@ p.footer-address {
 }
 
 .iubenda-black {
-  background: none;
+  background: none!important;
 }
 
 .iubenda-ibadge {
-  width: 100px;
-  height: 15px;
+  width: 100px!important;
+  height: 15px!important;
 }
