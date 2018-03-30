@@ -1,7 +1,7 @@
 @media (max-width: 1200px) {
   .navbar-nav > li > a {
-    font-size: 20px;
-    padding: 0 15px;
+    font-size: 12px;
+    padding: 0 10px;
   }
   .menu-socials li > a {
     font-size: 12px;
